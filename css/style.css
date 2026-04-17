@@ -1,0 +1,348 @@
+/* General  Style*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* ==================== Font Size ==================== */
+.fs-14{font-size: 14px;}
+.fs-18{font-size: 18px;}
+.fs-20{font-size: 20px;}
+.fs-30{font-size: 30px;}
+.fs-36{font-size: 36px;}
+.fs-60{font-size: 60px;}
+
+/* ==================== Font Weight ==================== */
+.fw-medium{font-weight: 500;}
+.fw-semibold{font-weight: 600;}
+.fw-bold{font-weight: 700;}
+
+/* ==================== Line Height ==================== */
+.lh-20{line-height: 20px;}
+.lh-23{line-height: 23px;}
+.lh-24{line-height: 24px;}
+.lh-28{line-height: 28px;}
+.lh-29{line-height: 29px;}
+.lh-33{line-height: 33px;}
+.lh-36{line-height: 36px;}
+.lh-40{line-height: 40px;}
+.lh-75{line-height: 75px;}
+
+/* ==================== Colors ==================== */
+.text-white{color: #fff;}
+.text-gray-400{color:#99a1af;}
+.text-gray-500{color:#6a7282;}
+.text-gray-600{color:#4a5565;}
+.text-gray-700{color:#364153;}
+.text-gray-900{color:#101828;}
+
+.bg-gray-50{background-color: #fbf9fa;}
+.bg-gray-900{background-color: #101828;}
+.bg-white{background-color: #fff;}
+.bg-black{background-color: #000;}
+.bg-blue-100{background-color: #dbeafe;}
+.bg-blue-600{background-color: #155dfc;}
+.bg-emerald-100{background-color: #d0fae5;}
+.bg-emerald-600{background-color: #009966;}
+.bg-purple-100{background-color: #f3e8ff;}
+.bg-purple-600{background-color: #9810fa;}
+.bg-blue-50{background-color: #eff6ff;}
+.bg-emerald-50{background-color: #ecfdf5;}
+.bg-purple-50{background-color: #faf5ff;}
+.bg-slate-100{background-color: #F1F5F9;}
+
+
+/* ==================== Spacing ==================== */
+.mb-4{margin-bottom: 4px;}
+.mb-8{margin-bottom: 8px;}
+.mb-12{margin-bottom: 12px;}
+.mb-16{margin-bottom: 16px;}
+.mb-24{margin-bottom: 24px;}
+.mb-32{margin-bottom: 32px;}
+.mb-48{margin-bottom: 48px;}
+.mb-64{margin-bottom: 64px;}
+.me-24{margin-right: 24px;}
+.me-16{margin-right: 16px;}
+
+.pt-32{padding-top: 32px;}
+.py-80{padding: 80px 0px;}
+.py-16{padding: 16px 0px;}
+.px-24{padding-inline: 24px;}
+.px-32{padding-inline: 32px;}
+
+/* ==================== Layout ==================== */
+.d-inline-block {display: inline-block;}
+.d-block {display: block;}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.clear-fix{
+    clear: both;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 64px;
+}
+.section-header h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #101828;
+    margin-bottom: 24px;
+}
+.section-header p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #4a5565;
+    margin-inline: auto;
+    max-width: 720px;
+}
+ul{
+    list-style: none;
+}
+.text-center{text-align: center;}
+a{text-decoration: none;}
+
+/* ==================== End General Style ==================== */
+
+/* ==================== Start Hero Section ==================== */
+
+.content-hero{
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+.image-hero{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+.content-hero h1{max-width: 580px;}
+.content-hero p{max-width: 572px;}
+.image-hero img{
+    width: 100%;
+    border-radius: 16px;
+}
+.hero-buttons button{
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.btn-start{
+    border: none;
+}
+.btn-learn{
+    border: 2px solid #d1d5dc;
+    background-color: transparent;
+}
+/* ==================== End Hero Section ==================== */
+
+/* ==================== Start Why Choose Us Section ==================== */
+
+#why-choose-us .card{
+    padding: 32px;
+    text-align: center;
+    border-radius: 16px;
+    width: calc((100% - 40px) / 3);
+    float: left;
+    margin-right: 20px;
+}
+#why-choose-us .me-0{
+    margin-right: 0px;
+}
+
+.icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+.icon-inner{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
+.rounded-lg{border-radius: 8px;}
+.rounded-full{border-radius: 50%;}
+.rounded{border-radius: 4px;}
+
+#why-choose-us .card-text{
+    min-height: 112px;
+}
+
+.border-blue-200{border: 1px solid #bedbff;}
+.border-emerald-200{border: 1px solid #a4f4cf;}
+.border-purple-200{border: 1px solid #e9d4ff;}
+
+
+.features-image{
+    width: 50%;
+    float: left;
+}
+.features-image img{
+    width: 100%;
+    border-radius: 12px;
+}
+.features-content{
+    width: 45%;
+    float: right;
+}
+
+.feature-item{
+    border-left: 4px solid black;
+    padding-left: 24px;
+    margin-bottom: 16px;
+}
+/* ==================== End Why Choose Us Section ==================== */
+
+/* ==================== Start Testimonials ==================== */
+
+#testimonials .card{
+    padding: 32px;
+    border-radius: 12px;
+    width: calc((100% - 40px) /3 );
+    float: left;
+    margin-right: 20px;
+}
+#testimonials .me-0{
+    margin-right: 0px;
+}
+
+.testimonial-text{
+    line-height: 26px;
+    color: #364153;
+    min-height: 104px;
+}
+
+
+.testimonial-avatar{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+}
+.testimonial-avatar img{
+    width: 75%;
+    border-radius: 50%;
+}
+
+.border-slate-200 {border: 1px solid #e2e8f0;}
+.statistics{
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.stat-item{  
+    width: 24.6%;
+    display: inline-block;
+}
+/* ==================== End Testimonials ==================== */
+
+/* ==================== Start Join Us ====================*/
+#join-us form{
+    padding: 48px;
+    width: 80%;
+    background-color: #fbf9fa;
+    border-radius: 16px;
+    margin: auto;
+}
+label{
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #364153;
+}
+#join-us input{
+    padding: 16px 24px;
+    width: 100%;
+    border: 1px solid #d1d5dc;
+    border-radius: 8px;
+}
+.form-group{
+    float: left;
+    width: calc((100% - 20px) /2);
+    margin-right: 20px;
+}
+.form-group.me-0{
+    margin-right: 0px;
+}
+
+input::placeholder ,
+textarea::placeholder{
+    font-size: 18px;
+}
+.form-field{
+    margin-bottom: 24px;
+}
+.form-field select{
+    width: 100%;
+    padding: 16px 24px;
+    border: 1px solid #d1d5dc;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.form-field textarea{
+    width: 100%;
+    padding: 16px 24px;
+    border: 1px solid #d1d5dc;
+    border-radius: 8px;
+}
+.form-field textarea::placeholder{
+    font-size: 18px;
+}
+textarea{
+    resize: none;
+}
+#join-us button{
+    padding: 16px 32px;
+    margin-bottom: 24px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #000;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+}
+/* ==================== End Join Us ====================*/
+
+
+/* ==================== Start Footer ==================== */
+
+.footer-col{
+    float: left;
+}
+.w-51{width: 51%;}
+.w-26{width: 26.3%;}
+.w-22{width: 22.3%;}
+.footer-bottom{border-top: 1px solid #364153;}
+.footer-copyright{
+    float: left;
+}
+.footer-policies{
+    float: right;
+}
+
+/* ==================== End Footer ==================== */
+
+
+
+
+
+
+
+
+
+
